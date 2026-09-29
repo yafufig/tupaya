@@ -22,7 +22,7 @@ chmod +x participant_test.sh
 ./participant_test.sh \
   --images-dir ./queries \
   --manifest ./queries.tsv \
-  --endpoint 'http://127.0.0.1:8080/v1/eval/predict' \
+  --endpoint 'https://2-27-200-186.sslip.io/v1/eval/predict' \
   --output ./predictions.jsonl
 ```
 
